@@ -4,11 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky",
-    "lint": "eslint .",
-    "format": "prettier -w .",
     "test": "vitest run --coverage",
+    "prepare": "husky",
+    "lint": "eslint \"src/**/*.js\" \"tests/**/*.js\"",
+    "format": "prettier -w .",
     "build": "echo \"build ok\""
   },
   "repository": {
@@ -25,12 +24,15 @@
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
+    "@eslint/js": "^9.33.0",
     "@vitest/coverage-v8": "^3.2.4",
     "eslint": "^9.33.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-import": "^2.32.0",
+    "globals": "^16.3.0",
     "husky": "^9.1.7",
     "prettier": "^3.6.2",
     "vitest": "^3.2.4"
-  }
+  },
+  "type": "module"
 }
