@@ -3,7 +3,7 @@ name: ci
 # 在 push 和 PR 时运行
 on:
   push:
-    branches: ["**"]
+    branches: ["main"]
   pull_request:
     branches: ["main"]
 
