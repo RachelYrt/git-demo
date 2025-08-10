@@ -1,4 +1,3 @@
 # git-demo
 
-
 # trigger CI

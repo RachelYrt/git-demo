@@ -2,11 +2,9 @@
 import js from '@eslint/js'
 
 export default [
-
   { ignores: ['node_modules/**', 'dist/**', 'coverage/**'] },
 
   js.configs.recommended,
-
 
   {
     languageOptions: {
@@ -18,6 +16,3 @@ export default [
     },
   },
 ]
-
-
-

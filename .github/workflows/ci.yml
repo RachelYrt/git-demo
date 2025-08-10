@@ -3,12 +3,12 @@ name: ci
 # 在 push 和 PR 时运行
 on:
   push:
-    branches: ["main"]
+    branches: ['main']
   pull_request:
-    branches: ["main"]
+    branches: ['main']
 
 jobs:
-  build:                       # 注意：列表里会显示成 “ci / build”
+  build: # 注意：列表里会显示成 “ci / build”
     runs-on: ubuntu-latest
 
     steps:
