@@ -1,3 +1,10 @@
-# git-demo
+# Git Evidence Demo
 
-# trigger CI
+## Dev
+npm i
+npm test
+
+## Conventions
+- Feature branches
+- Conventional Commits
+
